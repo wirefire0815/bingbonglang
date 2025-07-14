@@ -1,4 +1,4 @@
-package lexer
+package tests
 
 import (
 	"bingbonglang/lexer"

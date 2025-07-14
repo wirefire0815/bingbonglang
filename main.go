@@ -1,7 +1,7 @@
 package main
 
 import (
-	"bingbonglang/repl"
+	"bingbonglang/lexer"
 	"fmt"
 	"os"
 	"os/user"
@@ -14,5 +14,6 @@ func main() {
 	}
 
 	fmt.Printf("Hi %s! This is bingbong bingbong bingbong\n", user.Username)
-	repl.Start(os.Stdin, os.Stdout)
+
+	lexer.Start(os.Stdin, os.Stdout)
 }
